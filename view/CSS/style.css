@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #161516;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 150px;
+}
+
+#esqueci {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+#esqueci:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+#registro {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+    margin-top: 15px;
+}
+
+#registro:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+#name {
+    border-radius: 6px;
+    width: 70%;
+    height: 20px;
+}
+
+#CPF {
+    border-radius: 6px;
+    width: 70%;
+    height: 20px;
+}
+
+#end {
+    border-radius: 6px;
+    width: 70%;
+    height: 20px;
+}
+
+#senha {
+    border-radius: 6px;
+    width: 70%;
+    height: 20px;
+}
+
+#email {
+    border-radius: 6px;
+    width: 70%;
+    height: 20px;
+}
+
+#botao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 30px;
+     width: 250px;
+     height: 60px;
+     border-radius: 6px;
+     background-color: darkblue;
+    color: white;
+}
+
+.relembrar {
+    bottom: 120px;
+    padding-right: 10px;
+}
+
+.divcheck {
+    position: relative;
+    left: 60px;
+    top: 36px;
+}
+
+.mensagemdesucesso {
+    width: 100%; padding: 12px; 
+        border-radius: 8px;
+        background-color: #4dff74;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center; 
+        margin-bottom: 15px;
+}
+
+.mensagemdeerro {
+        width: 100%; padding: 12px; 
+        border-radius: 8px;
+        background-color: #ff4d4f;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center; 
+        margin-bottom: 15px;
+}
+    
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+
+
+
